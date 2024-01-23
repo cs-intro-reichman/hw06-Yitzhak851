@@ -8,8 +8,8 @@ public class ImageProcessingTester {
             return;
         }
 
-        String functionName = args[0];
-        String filename1 = args[1];
+        String functionName = args[0]; // flippedHorizontally
+        String filename1 = args[1]; // eyes.ppm
         String filename2 = args.length > 2 ? args[2] : null;
 
         switch (functionName) {
@@ -98,7 +98,7 @@ public class ImageProcessingTester {
 
     private static void testLuminance() {
 
-        Color color = new Color(255,255,255);
+        Color color = new Color(255, 255, 255);
 
         Color result = Runigram.luminance(color);
         System.out.println(result);
