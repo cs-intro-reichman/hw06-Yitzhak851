@@ -10,12 +10,7 @@ import java.awt.Color;
 
 public class Runigram {
 	public static void main(String[] args) {
-		Color[][] tinypic = read("tinypic.ppm");
-		setCanvas(tinypic);
-		print(tinypic);
-		System.out.println("================== Do some cool flip =====================");
-		Color[][] imageOut = flippedHorizontally(tinypic);
-		print(imageOut);
+		// Enjoys the code! :)
 	}
 
 	/**
